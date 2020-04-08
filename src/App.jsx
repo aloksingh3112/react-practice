@@ -1,11 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Header from './hoc/header'
+import React from "react";
+import "./App.css";
+// import Header from "./hoc/header";
+// import Counter from "./hooks/counter";
+import Users from "./hooks/users";
 
 function App() {
   return (
-    <Header/>
+    // <Header/>
+
+    // <Counter />
+    <Users />
   );
 }
 
